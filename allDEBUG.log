@@ -1,0 +1,469 @@
+2020-05-18 17:24:19[ DEBUG ]Using SLF4J as the default logging framework
+2020-05-18 17:24:19[ DEBUG ]Platform: Windows
+2020-05-18 17:24:19[ DEBUG ]-Dio.netty.noUnsafe: false
+2020-05-18 17:24:19[ DEBUG ]Java version: 8
+2020-05-18 17:24:19[ DEBUG ]sun.misc.Unsafe.theUnsafe: available
+2020-05-18 17:24:19[ DEBUG ]sun.misc.Unsafe.copyMemory: available
+2020-05-18 17:24:19[ DEBUG ]java.nio.Buffer.address: available
+2020-05-18 17:24:19[ DEBUG ]direct buffer constructor: available
+2020-05-18 17:24:19[ DEBUG ]java.nio.Bits.unaligned: available, true
+2020-05-18 17:24:19[ DEBUG ]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-05-18 17:24:19[ DEBUG ]java.nio.DirectByteBuffer.<init>(long, int): available
+2020-05-18 17:24:19[ DEBUG ]sun.misc.Unsafe: available
+2020-05-18 17:24:19[ DEBUG ]-Dio.netty.tmpdir: C:\Users\86181\AppData\Local\Temp (java.io.tmpdir)
+2020-05-18 17:24:19[ DEBUG ]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-05-18 17:24:19[ DEBUG ]-Dio.netty.maxDirectMemory: 3790077952 bytes
+2020-05-18 17:24:19[ DEBUG ]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-05-18 17:24:19[ DEBUG ]java.nio.ByteBuffer.cleaner(): available
+2020-05-18 17:24:19[ DEBUG ]-Dio.netty.noPreferDirect: false
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.leakDetection.level: simple
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.leakDetection.targetRecords: 4
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.buffer.checkAccessible: true
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.buffer.checkBounds: true
+2020-05-18 17:24:21[ DEBUG ]Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2eafffde
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.numHeapArenas: 24
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.numDirectArenas: 24
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.pageSize: 8192
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.maxOrder: 11
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.chunkSize: 16777216
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.tinyCacheSize: 512
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.smallCacheSize: 256
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.normalCacheSize: 64
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.cacheTrimInterval: 8192
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.useCacheForAllThreads: true
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.allocator.type: pooled
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.threadLocalDirectBufferSize: 0
+2020-05-18 17:24:21[ DEBUG ]-Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-05-18 17:24:21[ DEBUG ]netty-tcnative not in the classpath; OpenSslEngine will be unavailable.
+2020-05-18 17:24:23[ DEBUG ]Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-05-18 17:24:23[ DEBUG ]Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-05-18 17:24:23[ DEBUG ]-Dio.netty.eventLoopThreads: 24
+2020-05-18 17:24:23[ DEBUG ]-Dio.netty.noKeySetOptimization: false
+2020-05-18 17:24:23[ DEBUG ]-Dio.netty.selectorAutoRebuildThreshold: 512
+2020-05-18 17:24:23[ DEBUG ]org.jctools-core.MpscChunkedArrayQueue: available
+2020-05-18 17:24:23[ DEBUG ]-Dio.netty.processId: 23376 (auto-detected)
+2020-05-18 17:24:23[ DEBUG ]-Djava.net.preferIPv4Stack: false
+2020-05-18 17:24:23[ DEBUG ]-Djava.net.preferIPv6Addresses: false
+2020-05-18 17:24:24[ DEBUG ]Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-05-18 17:24:24[ DEBUG ]Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-05-18 17:24:25[ DEBUG ]-Dio.netty.machineId: 90:78:41:ff:fe:44:0d:d1 (auto-detected)
+2020-05-18 17:24:25[ INFO ]newThread()_boss
+2020-05-18 17:24:25[ INFO ][id: 0x702b1f58] REGISTERED
+2020-05-18 17:24:25[ INFO ][id: 0x702b1f58] BIND: 0.0.0.0/0.0.0.0:18888
+2020-05-18 17:24:25[ INFO ][id: 0x702b1f58, L:/0:0:0:0:0:0:0:0:18888] ACTIVE
+2020-05-18 18:14:27[ INFO ][id: 0x702b1f58, L:/0:0:0:0:0:0:0:0:18888] READ: [id: 0x7e2b0a27, L:/192.168.100.66:18888 - R:/192.168.100.66:60979]
+2020-05-18 18:14:27[ INFO ]newThread()_worker
+2020-05-18 18:14:27[ INFO ][id: 0x702b1f58, L:/0:0:0:0:0:0:0:0:18888] READ COMPLETE
+2020-05-18 18:14:29[ DEBUG ]-Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-05-18 18:14:29[ DEBUG ]-Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-05-18 18:14:29[ DEBUG ]-Dio.netty.recycler.linkCapacity: 16
+2020-05-18 18:14:29[ DEBUG ]-Dio.netty.recycler.ratio: 8
+2020-05-18 18:14:29[ INFO ]address:/192.168.100.66:60979
+2020-05-18 18:14:29[ INFO ]70b77f35-8133-4c0f-b271-c339559a1ced
+2020-05-18 18:14:29[ INFO ]收到数据Mon May 18 18:14:29 CST 202013
+2020-05-18 18:14:29[ INFO ]zkCLient create()
+2020-05-18 18:14:29[ DEBUG ]Discarded inbound message pub/70b77f35-8133-4c0f-b271-c339559a1ced/qwe that reached at the tail of the pipeline. Please check your pipeline configuration.
+2020-05-18 18:14:29[ DEBUG ]Discarded message pipeline : [DelimiterBasedFrameDecoder#0, StringDecoder#0, StringEncoder#0, DefaultChannelPipeline$TailContext#0]. Channel : [id: 0x7e2b0a27, L:/192.168.100.66:18888 - R:/192.168.100.66:60979].
+2020-05-18 18:14:29[ DEBUG ]Creating new ZookKeeper instance to connect to 127.0.0.1:2181.
+2020-05-18 18:14:29[ INFO ]Starting ZkClient event thread.
+2020-05-18 18:14:29[ INFO ]Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2020-05-18 18:14:29[ INFO ]Client environment:host.name=host.docker.internal
+2020-05-18 18:14:29[ INFO ]Client environment:java.version=1.8.0_211
+2020-05-18 18:14:29[ INFO ]Client environment:java.vendor=Oracle Corporation
+2020-05-18 18:14:29[ INFO ]Client environment:java.home=C:\Program Files\Java\jdk1.8.0_211\jre
+2020-05-18 18:14:29[ INFO ]Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Users\86181\IdeaProjects\DeviceServer\target\classes;C:\Users\86181\.m2\repository\io\netty\netty-all\4.1.49.Final\netty-all-4.1.49.Final.jar;C:\Users\86181\.m2\repository\org\apache\commons\commons-pool2\2.8.0\commons-pool2-2.8.0.jar;C:\Users\86181\.m2\repository\com\101tec\zkclient\0.11\zkclient-0.11.jar;C:\Users\86181\.m2\repository\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;C:\Users\86181\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\86181\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\86181\.m2\repository\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;C:\Users\86181\.m2\repository\com\rabbitmq\amqp-client\5.9.0\amqp-client-5.9.0.jar;C:\Users\86181\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\86181\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\86181\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\lib\idea_rt.jar
+2020-05-18 18:14:29[ INFO ]Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\sqlite\sqlite-tools-win32-x86-3300000;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;D:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;D:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Go\bin;C:\Users\86181\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\86181\AppData\Local\Programs\Python\Python38\;C:\Users\86181\AppData\Local\Microsoft\WindowsApps;D:\软件\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2020.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;C:\Users\86181\AppData\Local\Programs\Python;C:\Program Files\JetBrains\CLion 2020.1\bin;;D:\lhc\software\mingw64\bin;C:\Program Files\JetBrains\GoLand 2020.1.2\bin;;C:\Users\86181\go\bin;D:\lhc\other\maven\apache-maven-3.6.3\bin;;.
+2020-05-18 18:14:29[ INFO ]Client environment:java.io.tmpdir=C:\Users\86181\AppData\Local\Temp\
+2020-05-18 18:14:29[ INFO ]Client environment:java.compiler=<NA>
+2020-05-18 18:14:29[ INFO ]Client environment:os.name=Windows 10
+2020-05-18 18:14:29[ INFO ]Client environment:os.arch=amd64
+2020-05-18 18:14:29[ INFO ]Client environment:os.version=10.0
+2020-05-18 18:14:29[ INFO ]Client environment:user.name=lsxs
+2020-05-18 18:14:29[ INFO ]Client environment:user.home=C:\Users\86181
+2020-05-18 18:14:29[ INFO ]Client environment:user.dir=C:\Users\86181\IdeaProjects\DeviceServer
+2020-05-18 18:14:29[ INFO ]Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@29646e6b
+2020-05-18 18:14:29[ DEBUG ]zookeeper.disableAutoWatchReset is false
+2020-05-18 18:14:29[ DEBUG ]Awaiting connection to Zookeeper server
+2020-05-18 18:14:29[ INFO ]Waiting for keeper state SyncConnected
+2020-05-18 18:14:29[ INFO ]Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2020-05-18 18:14:29[ INFO ]Socket connection established to kubernetes.docker.internal/127.0.0.1:2181, initiating session
+2020-05-18 18:14:29[ DEBUG ]Session establishment request sent on kubernetes.docker.internal/127.0.0.1:2181
+2020-05-18 18:14:29[ INFO ]Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, sessionid = 0x100000077d90025, negotiated timeout = 30000
+2020-05-18 18:14:29[ DEBUG ]Received event: WatchedEvent state:SyncConnected type:None path:null
+2020-05-18 18:14:29[ INFO ]zookeeper state changed (SyncConnected)
+2020-05-18 18:14:29[ DEBUG ]Leaving process event
+2020-05-18 18:14:29[ DEBUG ]State is SyncConnected
+2020-05-18 18:14:29[ INFO ]zk read start
+2020-05-18 18:14:29[ DEBUG ]Reading reply sessionid:0x100000077d90025, packet:: clientPath:null serverPath:null finished:false header:: 1,4  replyHeader:: 1,103,0  request:: '/auth/device/70b77f35-8133-4c0f-b271-c339559a1ced,F  response:: #6e756c6c,s{90,91,1589790885158,1589790891741,1,0,0,0,4,0,90} 
+2020-05-18 18:14:29[ INFO ]zk read ok
+2020-05-18 18:14:29[ INFO ]null
+2020-05-18 18:14:29[ INFO ]null ssl device 
+2020-05-18 18:14:29[ INFO ]runnable ... ctx = ChannelHandlerContext(NettyServerHandler#0, [id: 0x7e2b0a27, L:/192.168.100.66:18888 - R:/192.168.100.66:60979]) msg = 70b77f35-8133-4c0f-b271-c339559a1ced
+2020-05-18 18:14:32[ INFO ]address:/192.168.100.66:60979
+2020-05-18 18:14:32[ INFO ]NettyServerBusinessHandler
+2020-05-18 18:14:32[ INFO ]new netty Server handler  msg = 70b77f35-8133-4c0f-b271-c339559a1ced
+2020-05-18 18:14:32[ INFO ]address:/192.168.100.66:60979
+2020-05-18 18:14:32[ INFO ]NettyServerBusinessHandler
+2020-05-18 18:14:32[ INFO ]new netty Server handler  msg = pub/70b77f35-8133-4c0f-b271-c339559a1ced/qwe
+2020-05-18 18:14:34[ INFO ]address:/192.168.100.66:60979
+2020-05-18 18:14:34[ INFO ]NettyServerBusinessHandler
+2020-05-18 18:14:34[ INFO ]new netty Server handler  msg = 70b77f35-8133-4c0f-b271-c339559a1ced
+2020-05-18 18:14:34[ INFO ]address:/192.168.100.66:60979
+2020-05-18 18:14:34[ INFO ]NettyServerBusinessHandler
+2020-05-18 18:14:34[ INFO ]new netty Server handler  msg = pub/70b77f35-8133-4c0f-b271-c339559a1ced/qwe
+2020-05-18 18:14:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:14:42[ INFO ]address:/192.168.100.66:60979
+2020-05-18 18:14:42[ INFO ]NettyServerBusinessHandler
+2020-05-18 18:14:42[ INFO ]new netty Server handler  msg = 70b77f35-8133-4c0f-b271-c339559a1ced
+2020-05-18 18:14:42[ INFO ]address:/192.168.100.66:60979
+2020-05-18 18:14:42[ INFO ]NettyServerBusinessHandler
+2020-05-18 18:14:42[ INFO ]new netty Server handler  msg = pub/70b77f35-8133-4c0f-b271-c339559a1ced/qwe
+2020-05-18 18:14:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:14:56[ INFO ]address:/192.168.100.66:60979
+2020-05-18 18:14:56[ INFO ]NettyServerBusinessHandler
+2020-05-18 18:14:56[ INFO ]new netty Server handler  msg = 70b77f35-8133-4c0f-b271-c339559a1ced
+2020-05-18 18:14:56[ INFO ]address:/192.168.100.66:60979
+2020-05-18 18:14:56[ INFO ]NettyServerBusinessHandler
+2020-05-18 18:14:56[ INFO ]new netty Server handler  msg = pub/70b77f35-8133-4c0f-b271-c339559a1ced/qwe
+2020-05-18 18:14:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:15:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:15:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:15:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:15:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:15:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:15:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:16:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:16:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:16:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:16:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:16:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:16:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:17:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:17:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:17:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:17:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:17:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:17:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:18:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:18:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:18:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:18:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:18:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:18:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:19:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:19:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:19:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:19:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:19:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:19:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:20:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:20:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:20:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:20:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:20:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:20:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:21:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:21:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:21:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:21:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:21:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:21:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:22:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:22:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:22:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:22:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:22:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:22:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:23:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:23:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:23:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:23:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:23:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:23:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:24:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:24:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:24:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:24:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:24:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:24:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:25:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:25:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:25:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:25:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:25:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:25:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:26:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:26:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:26:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:26:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:26:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:26:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:27:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:27:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:27:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:27:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:27:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:27:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:28:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:28:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:28:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:28:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:28:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:28:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:29:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:29:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:29:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:29:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:29:49[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:29:59[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:30:09[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:30:19[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:30:29[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 1ms
+2020-05-18 18:30:39[ DEBUG ]Got ping response for sessionid: 0x100000077d90025 after 2ms
+2020-05-18 18:35:02[ DEBUG ]Using SLF4J as the default logging framework
+2020-05-18 18:35:02[ DEBUG ]Platform: Windows
+2020-05-18 18:35:02[ DEBUG ]-Dio.netty.noUnsafe: false
+2020-05-18 18:35:02[ DEBUG ]Java version: 8
+2020-05-18 18:35:02[ DEBUG ]sun.misc.Unsafe.theUnsafe: available
+2020-05-18 18:35:02[ DEBUG ]sun.misc.Unsafe.copyMemory: available
+2020-05-18 18:35:02[ DEBUG ]java.nio.Buffer.address: available
+2020-05-18 18:35:02[ DEBUG ]direct buffer constructor: available
+2020-05-18 18:35:02[ DEBUG ]java.nio.Bits.unaligned: available, true
+2020-05-18 18:35:02[ DEBUG ]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-05-18 18:35:02[ DEBUG ]java.nio.DirectByteBuffer.<init>(long, int): available
+2020-05-18 18:35:02[ DEBUG ]sun.misc.Unsafe: available
+2020-05-18 18:35:02[ DEBUG ]-Dio.netty.tmpdir: C:\Users\86181\AppData\Local\Temp (java.io.tmpdir)
+2020-05-18 18:35:02[ DEBUG ]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-05-18 18:35:02[ DEBUG ]-Dio.netty.maxDirectMemory: 3790077952 bytes
+2020-05-18 18:35:02[ DEBUG ]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-05-18 18:35:02[ DEBUG ]java.nio.ByteBuffer.cleaner(): available
+2020-05-18 18:35:02[ DEBUG ]-Dio.netty.noPreferDirect: false
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.leakDetection.level: simple
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.leakDetection.targetRecords: 4
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.buffer.checkAccessible: true
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.buffer.checkBounds: true
+2020-05-18 18:35:04[ DEBUG ]Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2eafffde
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.numHeapArenas: 24
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.numDirectArenas: 24
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.pageSize: 8192
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.maxOrder: 11
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.chunkSize: 16777216
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.tinyCacheSize: 512
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.smallCacheSize: 256
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.normalCacheSize: 64
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.cacheTrimInterval: 8192
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.useCacheForAllThreads: true
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.allocator.type: pooled
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.threadLocalDirectBufferSize: 0
+2020-05-18 18:35:04[ DEBUG ]-Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-05-18 18:35:04[ DEBUG ]netty-tcnative not in the classpath; OpenSslEngine will be unavailable.
+2020-05-18 18:35:06[ DEBUG ]Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-05-18 18:35:06[ DEBUG ]Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-05-18 18:35:06[ DEBUG ]-Dio.netty.eventLoopThreads: 24
+2020-05-18 18:35:06[ DEBUG ]-Dio.netty.noKeySetOptimization: false
+2020-05-18 18:35:06[ DEBUG ]-Dio.netty.selectorAutoRebuildThreshold: 512
+2020-05-18 18:35:06[ DEBUG ]org.jctools-core.MpscChunkedArrayQueue: available
+2020-05-18 18:35:06[ DEBUG ]-Dio.netty.processId: 3280 (auto-detected)
+2020-05-18 18:35:06[ DEBUG ]-Djava.net.preferIPv4Stack: false
+2020-05-18 18:35:06[ DEBUG ]-Djava.net.preferIPv6Addresses: false
+2020-05-18 18:35:07[ DEBUG ]Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-05-18 18:35:07[ DEBUG ]Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.machineId: 90:78:41:ff:fe:44:0d:d1 (auto-detected)
+2020-05-18 18:35:09[ INFO ]newThread()_boss
+2020-05-18 18:35:09[ INFO ][id: 0x81fc58a8] REGISTERED
+2020-05-18 18:35:09[ INFO ][id: 0x81fc58a8] BIND: 0.0.0.0/0.0.0.0:18888
+2020-05-18 18:35:09[ INFO ][id: 0x81fc58a8, L:/0:0:0:0:0:0:0:0:18888] ACTIVE
+2020-05-18 18:35:09[ DEBUG ]Using SLF4J as the default logging framework
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.eventLoopThreads: 24
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.noKeySetOptimization: false
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.selectorAutoRebuildThreshold: 512
+2020-05-18 18:35:09[ DEBUG ]Platform: Windows
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.noUnsafe: false
+2020-05-18 18:35:09[ DEBUG ]Java version: 8
+2020-05-18 18:35:09[ DEBUG ]sun.misc.Unsafe.theUnsafe: available
+2020-05-18 18:35:09[ DEBUG ]sun.misc.Unsafe.copyMemory: available
+2020-05-18 18:35:09[ DEBUG ]java.nio.Buffer.address: available
+2020-05-18 18:35:09[ DEBUG ]direct buffer constructor: available
+2020-05-18 18:35:09[ DEBUG ]java.nio.Bits.unaligned: available, true
+2020-05-18 18:35:09[ DEBUG ]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-05-18 18:35:09[ DEBUG ]java.nio.DirectByteBuffer.<init>(long, int): available
+2020-05-18 18:35:09[ DEBUG ]sun.misc.Unsafe: available
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.tmpdir: C:\Users\86181\AppData\Local\Temp (java.io.tmpdir)
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.maxDirectMemory: 3790077952 bytes
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-05-18 18:35:09[ DEBUG ]java.nio.ByteBuffer.cleaner(): available
+2020-05-18 18:35:09[ DEBUG ]-Dio.netty.noPreferDirect: false
+2020-05-18 18:35:09[ DEBUG ]org.jctools-core.MpscChunkedArrayQueue: available
+2020-05-18 18:35:11[ DEBUG ]-Dio.netty.processId: 32608 (auto-detected)
+2020-05-18 18:35:11[ DEBUG ]-Djava.net.preferIPv4Stack: false
+2020-05-18 18:35:11[ DEBUG ]-Djava.net.preferIPv6Addresses: false
+2020-05-18 18:35:12[ DEBUG ]Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-05-18 18:35:12[ DEBUG ]Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.machineId: 90:78:41:ff:fe:44:0d:d1 (auto-detected)
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.leakDetection.level: simple
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.leakDetection.targetRecords: 4
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.numHeapArenas: 24
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.numDirectArenas: 24
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.pageSize: 8192
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.maxOrder: 11
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.chunkSize: 16777216
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.tinyCacheSize: 512
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.smallCacheSize: 256
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.normalCacheSize: 64
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.cacheTrimInterval: 8192
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.useCacheForAllThreads: true
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.allocator.type: pooled
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.threadLocalDirectBufferSize: 0
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.buffer.checkAccessible: true
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.buffer.checkBounds: true
+2020-05-18 18:35:14[ DEBUG ]Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@51e3ac64
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.recycler.linkCapacity: 16
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.recycler.ratio: 8
+2020-05-18 18:35:14[ INFO ][id: 0x81fc58a8, L:/0:0:0:0:0:0:0:0:18888] READ: [id: 0xf57f99ed, L:/127.0.0.1:18888 - R:/127.0.0.1:63866]
+2020-05-18 18:35:14[ INFO ]newThread()_worker
+2020-05-18 18:35:14[ INFO ][id: 0x81fc58a8, L:/0:0:0:0:0:0:0:0:18888] READ COMPLETE
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.recycler.linkCapacity: 16
+2020-05-18 18:35:14[ DEBUG ]-Dio.netty.recycler.ratio: 8
+2020-05-18 18:35:14[ INFO ]address:/127.0.0.1:63866
+2020-05-18 18:35:14[ INFO ]d8ca560e-52b2-46b2-a976-c22187c23cc0
+2020-05-18 18:35:14[ INFO ]收到数据Mon May 18 18:35:14 CST 202013
+2020-05-18 18:35:14[ INFO ]zkCLient create()
+2020-05-18 18:35:14[ DEBUG ]Creating new ZookKeeper instance to connect to 127.0.0.1:2181.
+2020-05-18 18:35:14[ INFO ]Starting ZkClient event thread.
+2020-05-18 18:35:14[ INFO ]Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2020-05-18 18:35:14[ INFO ]Client environment:host.name=host.docker.internal
+2020-05-18 18:35:14[ INFO ]Client environment:java.version=1.8.0_211
+2020-05-18 18:35:14[ INFO ]Client environment:java.vendor=Oracle Corporation
+2020-05-18 18:35:14[ INFO ]Client environment:java.home=C:\Program Files\Java\jdk1.8.0_211\jre
+2020-05-18 18:35:14[ INFO ]Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Users\86181\IdeaProjects\DeviceServer\target\classes;C:\Users\86181\.m2\repository\io\netty\netty-all\4.1.49.Final\netty-all-4.1.49.Final.jar;C:\Users\86181\.m2\repository\org\apache\commons\commons-pool2\2.8.0\commons-pool2-2.8.0.jar;C:\Users\86181\.m2\repository\com\101tec\zkclient\0.11\zkclient-0.11.jar;C:\Users\86181\.m2\repository\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;C:\Users\86181\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\86181\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\86181\.m2\repository\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;C:\Users\86181\.m2\repository\com\rabbitmq\amqp-client\5.9.0\amqp-client-5.9.0.jar;C:\Users\86181\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\86181\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\86181\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\lib\idea_rt.jar
+2020-05-18 18:35:14[ INFO ]Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\sqlite\sqlite-tools-win32-x86-3300000;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;D:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;D:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Go\bin;C:\Users\86181\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\86181\AppData\Local\Programs\Python\Python38\;C:\Users\86181\AppData\Local\Microsoft\WindowsApps;D:\软件\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2020.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;C:\Users\86181\AppData\Local\Programs\Python;C:\Program Files\JetBrains\CLion 2020.1\bin;;D:\lhc\software\mingw64\bin;C:\Program Files\JetBrains\GoLand 2020.1.2\bin;;C:\Users\86181\go\bin;D:\lhc\other\maven\apache-maven-3.6.3\bin;;.
+2020-05-18 18:35:14[ INFO ]Client environment:java.io.tmpdir=C:\Users\86181\AppData\Local\Temp\
+2020-05-18 18:35:14[ INFO ]Client environment:java.compiler=<NA>
+2020-05-18 18:35:14[ INFO ]Client environment:os.name=Windows 10
+2020-05-18 18:35:14[ INFO ]Client environment:os.arch=amd64
+2020-05-18 18:35:14[ INFO ]Client environment:os.version=10.0
+2020-05-18 18:35:14[ INFO ]Client environment:user.name=lsxs
+2020-05-18 18:35:14[ INFO ]Client environment:user.home=C:\Users\86181
+2020-05-18 18:35:14[ INFO ]Client environment:user.dir=C:\Users\86181\IdeaProjects\DeviceServer
+2020-05-18 18:35:14[ INFO ]Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@31c26dbb
+2020-05-18 18:35:14[ DEBUG ]zookeeper.disableAutoWatchReset is false
+2020-05-18 18:35:14[ DEBUG ]Awaiting connection to Zookeeper server
+2020-05-18 18:35:14[ INFO ]Waiting for keeper state SyncConnected
+2020-05-18 18:35:14[ INFO ]Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2020-05-18 18:35:14[ INFO ]Socket connection established to kubernetes.docker.internal/127.0.0.1:2181, initiating session
+2020-05-18 18:35:14[ DEBUG ]Session establishment request sent on kubernetes.docker.internal/127.0.0.1:2181
+2020-05-18 18:35:14[ INFO ]Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, sessionid = 0x100000077d90027, negotiated timeout = 30000
+2020-05-18 18:35:14[ DEBUG ]Received event: WatchedEvent state:SyncConnected type:None path:null
+2020-05-18 18:35:14[ INFO ]zookeeper state changed (SyncConnected)
+2020-05-18 18:35:14[ DEBUG ]Leaving process event
+2020-05-18 18:35:14[ DEBUG ]State is SyncConnected
+2020-05-18 18:35:14[ INFO ]zk read start
+2020-05-18 18:35:14[ DEBUG ]Reading reply sessionid:0x100000077d90027, packet:: clientPath:null serverPath:null finished:false header:: 1,4  replyHeader:: 1,107,0  request:: '/auth/device/d8ca560e-52b2-46b2-a976-c22187c23cc0,F  response:: #73736c,s{47,79,1589783383761,1589787976238,4,0,0,0,3,0,47} 
+2020-05-18 18:35:14[ INFO ]zk read ok
+2020-05-18 18:35:14[ INFO ]ssl
+2020-05-18 18:35:14[ INFO ]runnable ... ctx = ChannelHandlerContext(NettyServerHandler#0, [id: 0xf57f99ed, L:/127.0.0.1:18888 - R:/127.0.0.1:63866]) msg = d8ca560e-52b2-46b2-a976-c22187c23cc0
+2020-05-18 18:35:14[ DEBUG ]netty-tcnative not in the classpath; OpenSslEngine will be unavailable.
+2020-05-18 18:35:15[ DEBUG ]Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-05-18 18:35:15[ DEBUG ]Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-05-18 18:35:15[ DEBUG ]Discarded inbound message  �  ~^�d���"Ǒ}�����6��-�����4X  �,�+�/�0�� � / 5  C  that reached at the tail of the pipeline. Please check your pipeline configuration.
+2020-05-18 18:35:15[ DEBUG ]Discarded message pipeline : [DelimiterBasedFrameDecoder#0, StringDecoder#0, StringEncoder#0, DefaultChannelPipeline$TailContext#0]. Channel : [id: 0xf57f99ed, L:/127.0.0.1:18888 - R:/127.0.0.1:63866].
+2020-05-18 18:35:15[ DEBUG ]Discarded inbound message       	  that reached at the tail of the pipeline. Please check your pipeline configuration.
+2020-05-18 18:35:15[ DEBUG ]Discarded message pipeline : [DelimiterBasedFrameDecoder#0, StringDecoder#0, StringEncoder#0, DefaultChannelPipeline$TailContext#0]. Channel : [id: 0xf57f99ed, L:/127.0.0.1:18888 - R:/127.0.0.1:63866].
+2020-05-18 18:35:24[ DEBUG ]Got ping response for sessionid: 0x100000077d90027 after 2ms
+2020-05-18 18:35:34[ DEBUG ]Got ping response for sessionid: 0x100000077d90027 after 1ms
+2020-05-18 18:35:36[ DEBUG ]Using SLF4J as the default logging framework
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.eventLoopThreads: 24
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.noKeySetOptimization: false
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.selectorAutoRebuildThreshold: 512
+2020-05-18 18:35:36[ DEBUG ]Platform: Windows
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.noUnsafe: false
+2020-05-18 18:35:36[ DEBUG ]Java version: 8
+2020-05-18 18:35:36[ DEBUG ]sun.misc.Unsafe.theUnsafe: available
+2020-05-18 18:35:36[ DEBUG ]sun.misc.Unsafe.copyMemory: available
+2020-05-18 18:35:36[ DEBUG ]java.nio.Buffer.address: available
+2020-05-18 18:35:36[ DEBUG ]direct buffer constructor: available
+2020-05-18 18:35:36[ DEBUG ]java.nio.Bits.unaligned: available, true
+2020-05-18 18:35:36[ DEBUG ]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-05-18 18:35:36[ DEBUG ]java.nio.DirectByteBuffer.<init>(long, int): available
+2020-05-18 18:35:36[ DEBUG ]sun.misc.Unsafe: available
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.tmpdir: C:\Users\86181\AppData\Local\Temp (java.io.tmpdir)
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.maxDirectMemory: 3790077952 bytes
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-05-18 18:35:36[ DEBUG ]java.nio.ByteBuffer.cleaner(): available
+2020-05-18 18:35:36[ DEBUG ]-Dio.netty.noPreferDirect: false
+2020-05-18 18:35:36[ DEBUG ]org.jctools-core.MpscChunkedArrayQueue: available
+2020-05-18 18:35:37[ DEBUG ]-Dio.netty.processId: 21716 (auto-detected)
+2020-05-18 18:35:37[ DEBUG ]-Djava.net.preferIPv4Stack: false
+2020-05-18 18:35:37[ DEBUG ]-Djava.net.preferIPv6Addresses: false
+2020-05-18 18:35:39[ DEBUG ]Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-05-18 18:35:39[ DEBUG ]Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.machineId: 90:78:41:ff:fe:44:0d:d1 (auto-detected)
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.leakDetection.level: simple
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.leakDetection.targetRecords: 4
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.numHeapArenas: 24
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.numDirectArenas: 24
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.pageSize: 8192
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.maxOrder: 11
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.chunkSize: 16777216
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.tinyCacheSize: 512
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.smallCacheSize: 256
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.normalCacheSize: 64
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.cacheTrimInterval: 8192
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.useCacheForAllThreads: true
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.allocator.type: pooled
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.threadLocalDirectBufferSize: 0
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.buffer.checkAccessible: true
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.buffer.checkBounds: true
+2020-05-18 18:35:40[ DEBUG ]Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@78e4ee6
+2020-05-18 18:35:40[ INFO ][id: 0x81fc58a8, L:/0:0:0:0:0:0:0:0:18888] READ: [id: 0xa86a7e17, L:/127.0.0.1:18888 - R:/127.0.0.1:63975]
+2020-05-18 18:35:40[ INFO ]newThread()_worker
+2020-05-18 18:35:40[ INFO ][id: 0x81fc58a8, L:/0:0:0:0:0:0:0:0:18888] READ COMPLETE
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.recycler.linkCapacity: 16
+2020-05-18 18:35:40[ DEBUG ]-Dio.netty.recycler.ratio: 8
+2020-05-18 18:35:40[ INFO ]address:/127.0.0.1:63975
+2020-05-18 18:35:40[ INFO ]d8ca560e-52b2-46b2-a976-c22187c23cc0
+2020-05-18 18:35:40[ INFO ]收到数据Mon May 18 18:35:40 CST 202019
+2020-05-18 18:35:40[ INFO ]zk read start
+2020-05-18 18:35:40[ DEBUG ]Reading reply sessionid:0x100000077d90027, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,108,0  request:: '/auth/device/d8ca560e-52b2-46b2-a976-c22187c23cc0,F  response:: #73736c,s{47,79,1589783383761,1589787976238,4,0,0,0,3,0,47} 
+2020-05-18 18:35:40[ INFO ]zk read ok
+2020-05-18 18:35:40[ INFO ]ssl
+2020-05-18 18:35:40[ INFO ]ssl channel init ok
+2020-05-18 18:35:40[ INFO ]runnable ... ctx = ChannelHandlerContext(NettyServerHandler#0, [id: 0xa86a7e17, L:/127.0.0.1:18888 - R:/127.0.0.1:63975]) msg = d8ca560e-52b2-46b2-a976-c22187c23cc0
+2020-05-18 18:35:40[ DEBUG ]netty-tcnative not in the classpath; OpenSslEngine will be unavailable.
+2020-05-18 18:35:42[ DEBUG ]Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-05-18 18:35:42[ DEBUG ]Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-05-18 18:35:42[ DEBUG ][id: 0xa86a7e17, L:/127.0.0.1:18888 - R:/127.0.0.1:63975] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-05-18 18:35:42[ DEBUG ][id: 0x11e17b35, L:/127.0.0.1:63975 - R:/127.0.0.1:18888] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-05-18 18:35:42[ INFO ]address:/127.0.0.1:63975
+2020-05-18 18:35:42[ INFO ]SslNettyServerBusinessHandler
+2020-05-18 18:35:50[ DEBUG ]Got ping response for sessionid: 0x100000077d90027 after 1ms

@@ -10,11 +10,15 @@ import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.ssl.SslContext;
 import io.netty.handler.ssl.SslContextBuilder;
 import io.netty.handler.ssl.util.SelfSignedCertificate;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class NettyServer {
+
+    static Logger logger = LoggerFactory.getLogger(NettyServer.class);
 
     public void start(int port) throws Exception{
 
@@ -25,14 +29,14 @@ public class NettyServer {
         EventLoopGroup bossGroup = new NioEventLoopGroup(1, new ThreadFactory() {
             private AtomicInteger index = new AtomicInteger(0);
             public Thread newThread(Runnable r) {
-                System.out.println("newThread()_boss");
+                logger.info("newThread()_boss");
                 return new Thread(r, "BOSS_" + index.incrementAndGet());
             }
         });
         EventLoopGroup  workerGroup = new NioEventLoopGroup(4, new ThreadFactory() {
             private AtomicInteger index = new AtomicInteger(0);
             public Thread newThread(Runnable r) {
-                System.out.println("newThread()_worker");
+                logger.info("newThread()_worker");
                 return new NettyWorkerThread(r, "WORKER_" + index.incrementAndGet());
             }
         });
